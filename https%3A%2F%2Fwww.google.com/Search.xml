@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="Search" path="/search" id="f6cfc15b-8ccc-467d-81a6-10d44083dc77" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="f6cfc15b-8ccc-467d-81a6-10d44083dc77fileName">Search</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="Search" id="d2e3940b-72f0-470f-b378-dc41f2c9e7c3" method="GET">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>q</con:name>
+        <con:value>new zealand</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>new zealand</con:default>
+        <con:path xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>rlz</con:name>
+        <con:value>1C1GCEB_enNZ857NZ857</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>1C1GCEB_enNZ857NZ857</con:default>
+        <con:path xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>oq</con:name>
+        <con:value>new zealand</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>new zealand</con:default>
+        <con:path xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>aqs</con:name>
+        <con:value>chrome..69i57j35i39l2j0j69i60j69i61.1661j0j4</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>chrome..69i57j35i39l2j0j69i60j69i61.1661j0j4</con:default>
+        <con:path xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>sourceid</con:name>
+        <con:value>chrome</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>chrome</con:default>
+        <con:path xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>ie</con:name>
+        <con:value>UTF-8</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>UTF-8</con:default>
+        <con:path xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+    </con:parameters>
+    <con:representation type="RESPONSE">
+      <con:mediaType>text/html; charset=ISO-8859-1</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element>html</con:element>
+    </con:representation>
+    <con:request name="Request 1" id="382b533d-9a16-4fa5-bb4b-de278f2eacc9" mediaType="application/json">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+      </con:settings>
+      <con:endpoint>https://www.google.com</con:endpoint>
+      <con:request/>
+      <con:originalUri>https://www.google.com/search</con:originalUri>
+      <con:credentials>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters>
+        <con:entry key="sourceid" value="chrome"/>
+        <con:entry key="q" value="new zealand"/>
+        <con:entry key="rlz" value="1C1GCEB_enNZ857NZ857"/>
+        <con:entry key="oq" value="new zealand"/>
+        <con:entry key="aqs" value="chrome..69i57j35i39l2j0j69i60j69i61.1661j0j4"/>
+        <con:entry key="ie" value="UTF-8"/>
+      </con:parameters>
+      <con:parameterOrder>
+        <con:entry>q</con:entry>
+        <con:entry>rlz</con:entry>
+        <con:entry>oq</con:entry>
+        <con:entry>aqs</con:entry>
+        <con:entry>sourceid</con:entry>
+        <con:entry>ie</con:entry>
+      </con:parameterOrder>
+    </con:request>
+  </con:method>
+  <con:method name="Copy of Search" id="d2e3940b-72f0-470f-b378-dc41f2c9e7c3" method="GET">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>q</con:name>
+        <con:value>new zealand</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>new zealand</con:default>
+        <con:path xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>rlz</con:name>
+        <con:value>1C1GCEB_enNZ857NZ857</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>1C1GCEB_enNZ857NZ857</con:default>
+        <con:path xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>oq</con:name>
+        <con:value>new zealand</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>new zealand</con:default>
+        <con:path xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>aqs</con:name>
+        <con:value>chrome..69i57j35i39l2j0j69i60j69i61.1661j0j4</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>chrome..69i57j35i39l2j0j69i60j69i61.1661j0j4</con:default>
+        <con:path xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>sourceid</con:name>
+        <con:value>chrome</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>chrome</con:default>
+        <con:path xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>ie</con:name>
+        <con:value>UTF-8</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>UTF-8</con:default>
+        <con:path xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+    </con:parameters>
+    <con:representation type="RESPONSE">
+      <con:mediaType>text/html; charset=ISO-8859-1</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element>html</con:element>
+    </con:representation>
+    <con:request name="Request 1" id="382b533d-9a16-4fa5-bb4b-de278f2eacc9" mediaType="application/json">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+      </con:settings>
+      <con:endpoint>https://www.google.com</con:endpoint>
+      <con:request/>
+      <con:originalUri>https://www.google.com/search</con:originalUri>
+      <con:credentials>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters>
+        <con:entry key="sourceid" value="chrome"/>
+        <con:entry key="q" value="new zealand"/>
+        <con:entry key="rlz" value="1C1GCEB_enNZ857NZ857"/>
+        <con:entry key="oq" value="new zealand"/>
+        <con:entry key="aqs" value="chrome..69i57j35i39l2j0j69i60j69i61.1661j0j4"/>
+        <con:entry key="ie" value="UTF-8"/>
+      </con:parameters>
+      <con:parameterOrder>
+        <con:entry>q</con:entry>
+        <con:entry>rlz</con:entry>
+        <con:entry>oq</con:entry>
+        <con:entry>aqs</con:entry>
+        <con:entry>sourceid</con:entry>
+        <con:entry>ie</con:entry>
+      </con:parameterOrder>
+    </con:request>
+  </con:method>
+</con:resource>
